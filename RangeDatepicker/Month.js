@@ -131,7 +131,7 @@ const Month = memo((props) => {
 
 Month.defaultProps = {
 	titleFormat: 'MMMM YYYY',
-	titleStyle: { fontSize: 20, padding: 20 },
+	titleStyle: { fontSize: 15, padding: 20 },
 	dayHeaderProps: {},
 	showDaysHeader: false,
 	capitalizeTitle: false,

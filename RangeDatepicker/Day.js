@@ -36,13 +36,13 @@ const Day = memo((props) => {
 		pointTextColor,
 		selectedBackgroundColor,
 		selectedTextColor,
-		dayContainerOffset = 10,
+		dayContainerOffset = 15,
 	} = dayProps;
 	
 	const side = Math.floor(DEVICE_WIDTH / 7)+2;
 	const size = {
-		width: side,
-		height: side,
+		width: side ,
+		height: side - dayContainerOffset,
 		flexDirection: 'row',
 		justifyContent: 'center',
 		alignItems: 'center',

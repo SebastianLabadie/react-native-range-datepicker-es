@@ -5,6 +5,8 @@ import advancedFormat from "dayjs/plugin/advancedFormat";
 import utc from "dayjs/plugin/utc";
 import isSameOrAfter from "dayjs/plugin/isSameOrAfter";
 import isSameOrBefore from "dayjs/plugin/isSameOrBefore";
+import 'dayjs/locale/es'
+dayjs.locale('es') 
 dayjs.extend(customParseFormat);
 dayjs.extend(relativeTime);
 dayjs.extend(advancedFormat);

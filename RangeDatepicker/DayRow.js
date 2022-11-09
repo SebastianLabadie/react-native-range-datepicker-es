@@ -7,7 +7,7 @@ import Day from './Day';
 
 const DayRow = (props) => {
 	return (
-		<View style={{ marginBottom: 2, marginTop: 2, flexDirection: 'row', justifyContent: 'space-evenly', flex: 1}}>
+		<View style={{ marginBottom: 3, marginTop: 3, flexDirection: 'row', justifyContent: 'space-evenly', flex: 1}}>
 			{
 				props.days.map((day, i) => {
 					return (

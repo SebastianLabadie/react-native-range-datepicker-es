@@ -1,5 +1,5 @@
 {
-  "name": "react-native-range-datepicker",
+  "name": "react-native-range-datepicker-es",
   "version": "2.2.0",
   "description": "React native range datepicker (inspired by Airbnb Datepicker)",
   "main": "index.js",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apaajabolehd/react-native-range-datepicker.git"
+    "url": "git+https://github.com/SebastianLabadie/react-native-range-datepicker-es.git"
   },
   "author": "Hanson Citra <hansoncitra@gmail.com>",
   "license": "ISC",
